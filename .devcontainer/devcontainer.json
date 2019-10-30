@@ -21,7 +21,6 @@
 	// new files getting created as root, but you may need to update the USER_UID
 	// and USER_GID in .devcontainer/Dockerfile to match your user if not 1000.
 	//"runArgs": [ "-u", "vscode"],
-	"runArgs": [ "-v", ""],
 
 	"workspaceMount": "src=${localWorkspaceFolder},dst=/workspace,type=bind,consistency=cached",
 	"workspaceFolder": "/workspace",
